@@ -11,18 +11,18 @@
             }  
     </style>
 </head>
-<body>
+<body  style="background-color:rgb(235, 235, 245);">
     <div align="center">
         <div align=center margin_top=500px>
-            <img src="C:\Users\admin\Desktop\ttl\signing.jpg" align="center" height="100" width="100">
+            <img src="signing.jpg" align="center" height="100" width="100">
         </div>
         <div><label for="fname"></label>
-            <input type="text" id="fname" name="fname" placeholder="First Name" class="box"><br><br>
-            <input type="text" id="email" name="email" placeholder="Email" class="box"><br><br>
-            <input type=button onClick="res()" class ="box" value='Sign in'>
+            <input type="text" id="fname" name="fname" placeholder="First Name" class="box"><br>
+            <input type="email" id="email" name="email" placeholder="Email" class="box"><br>
+            <input type=button onClick="res()" style="background-color: blue;color: white;" class ="box" value='Sign in'>
             </div>
-        <div><h4>&#169;Made with &#128512;Memphis </h4></div>
+        <div><h4>&#169; Made with &#128151; Memphis</h4></div>
         </div>
-    <script src="final.js"></script>
+    <script src="final.js" ></script>
 </body>
 </html>       
